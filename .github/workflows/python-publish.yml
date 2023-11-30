@@ -36,5 +36,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: pytest
-      files: ^test/ # ^ means "start with test/"
-      always_run: true # run on all files, not just those staged otherwise it will not run unless you update the test file
+     # files: ^test/ # ^ means "start with test/"
+     # always_run: true # run on all files, not just those staged otherwise it will not run unless you update the test file
